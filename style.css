@@ -55,6 +55,7 @@ table, tr, td{
     width: 30vw;
     background-color: rgba(256, 256, 256, 0.6);
     border-radius: 2rem;
+    backdrop-filter: blur(5px);
 }
 .r_border{
     border-right: 2px solid #262626;
@@ -293,6 +294,83 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
+#itinerary{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/leaves3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#itinerary_inner{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    background-color: #2d553b;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#itinerary_title{
+    color: #eaddca;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+#itinerary_text{
+    color: #bebebe;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.4rem;
+}
+#ftable{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.adjust_td{
+    min-width: 80px;
+}
+.right_border{
+    border-right: 3px dashed white;
+    height: 4rem;
+}
+.ftime{
+    background-color: rgb(92, 141, 90);
+    color: white;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    border-radius: 0.5rem;
+    text-shadow: 0px 0px 10px black;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.left{
+    text-align: left;
+}
+.activity{
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 1rem;
+}
+.subplace{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.4rem;
+    color: #D3AC79;
+    font-weight: lighter;
+    padding-left: 1rem;
+}
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
