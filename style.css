@@ -375,6 +375,64 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
+#foot{
+    background-color: #262626;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot_name{
+    width: 50%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7rem;
+    color: #D3AC79;
+}
+.ri_border{
+    border-right: 2px solid #D3AC79;
+    height: 5rem;
+}
+.ri_border2{
+    border-right: 2px solid #D3AC79;
+    height: 2rem;
+}
+
+.foot_author{
+    width: 50%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    color: #D3AC79;
+}
+
+.author_container{
+    font-family: 'Poppins', sans-serif;
+}
+
+button:visited{text-decoration: none;}
+button::after{text-decoration: none;}
+.author_button{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
+.author_button{
+    height: 2rem;
+}
+
+/*
+*{
+    border: 2px solid crimson;
+}
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
