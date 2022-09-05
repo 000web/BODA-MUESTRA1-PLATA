@@ -87,12 +87,6 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
-/*
-*{
-    border: 2px solid crimson;
-}
-*/
-/**/
 #couple{
     height: 100vh;
     width: 100%;
@@ -153,6 +147,148 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
+#places{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#religious{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/leaves2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#party{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/leaves.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#religious_sub{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    /*background-color: #eaddca;*/
+    border-radius: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr;
+    grid-template-areas:
+    "r1 r3"
+    "r2 r3";
+}
+#r1{
+    grid-area: r1;
+}
+#r2{
+    grid-area: r2;
+}
+#r3{
+    grid-area: r3;
+}
+#party_sub{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    /*background-color: #eaddca;*/
+    border-radius: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr;
+    grid-template-areas:
+    "r1 r3"
+    "r2 r3";
+}
+#p1{
+    grid-area: r1;
+}
+#p2{
+    grid-area: r2;
+}
+#p3{
+    grid-area: r3;
+}
+.places_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#r1{
+    background-color: #2d553b;
+    color: #eaddca;
+}
+#p1{
+    background-color: #eaddca;
+    color: #2d553b;
+}
+#r2{
+    background-image: url("images/santa_prisca.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+#p2{
+    background-image: url("images/salon.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+#r3{
+    border-radius: 1rem;
+    border: 2px solid #2d553b;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p3{
+    border-radius: 1rem;
+    border: 2px solid #eaddca;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#map1{
+    border-radius: 1rem;
+}
+#map2{
+    border-radius: 1rem;
+}
+.places_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+.places_place{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.places_hour{
+    font-family: 'Poppins', sans-serif;
+}
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -191,6 +327,38 @@ table, tr, td{
 @media (max-width: 1000px){
     #head_table{
         width: 40vw;
+    }
+    #religious_sub{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 1.2fr;
+        grid-template-areas:
+        "r1 r2"
+        "r3 r3";
+    }
+    #r1{
+        grid-area: r1;
+    }
+    #r2{
+        grid-area: r2;
+    }
+    #r3{
+        grid-area: r3;
+    }
+    #party_sub{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 1.2fr;
+        grid-template-areas:
+        "p1 p2"
+        "p3 p3";
+    }
+    #p1{
+        grid-area: p1;
+    }
+    #p2{
+        grid-area: p2;
+    }
+    #p3{
+        grid-area: p3;
     }
 }
 
@@ -244,9 +412,53 @@ table, tr, td{
     #ci3{
         grid-area: ci3;
     }
+    #religious_sub{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "r1"
+        "r2"
+        "r3";
+    }
+    #r1{
+        grid-area: r1;
+    }
+    #r2{
+        grid-area: r2;
+    }
+    #r3{
+        grid-area: r3;
+    }
+    #party_sub{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "p1"
+        "p2"
+        "p3";
+    }
+    #p1{
+        grid-area: p1;
+    }
+    #p2{
+        grid-area: p2;
+    }
+    #p3{
+        grid-area: p3;
+    }
 }
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
-
-
+@media (max-height: 500px){
+    #head{
+        display: flex;
+        align-items: center;
+    }
+    #head_text{
+        padding-bottom: 0rem;
+    }
+}
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
