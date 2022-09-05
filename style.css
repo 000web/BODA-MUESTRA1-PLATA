@@ -26,13 +26,7 @@ body{
 /*=========================================================*/
 /*=========================================================*/
 
-/*=========================================================*/
-/*=========================================================*/
-/*=========================================================*/
-/*
-*{
-    border: 1px solid chartreuse;
-}
+
 
 /*=========================================================*/
 /*=========================================================*/
@@ -59,7 +53,7 @@ table, tr, td{
 }
 #head_table{
     width: 30vw;
-    background-color: rgba(256, 256, 256, 0.5);
+    background-color: rgba(256, 256, 256, 0.6);
     border-radius: 2rem;
 }
 .r_border{
@@ -93,13 +87,68 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
+/*
+*{
+    border: 2px solid crimson;
+}
+*/
+/**/
 #couple{
     height: 100vh;
-    /*width: 100vw;*/
-    /*background-image: url("images_novios/h1.jpeg");*/
-    /*background-position: center center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    width: 100%;
+    background-image: url("images/leaves.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#couple_inner{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    background-color: #eaddca;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "ci1 ci2 ci3";
+}
+#ci1{
+    grid-area: ci1;
+}
+#ci2{
+    grid-area: ci2;
+}
+#ci3{
+    grid-area: ci3;
+}
+.ci_sub_sub{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+}
+.cs{
+    color: #30593b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.cs2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+#ci2_1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+
 }
 /*=========================================================*/
 /*=========================================================*/
@@ -149,6 +198,21 @@ table, tr, td{
     #head_table{
         width: 50vw;
     }
+    #couple_inner{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "ci1 ci3"
+        "ci2 ci2";
+    }
+    #ci1{
+        grid-area: ci1;
+    }
+    #ci2{
+        grid-area: ci2;
+    }
+    #ci3{
+        grid-area: ci3;
+    }
 }
 
 @media (max-width: 570px){
@@ -156,17 +220,29 @@ table, tr, td{
         width: 90vw;
     }
     #head{
-        height: 100vh;
-        /*width: 100vw*/;
         background-image: url("images_novios/v2.jpeg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .inv_h{
         font-size: 1.7rem;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    #couple_inner{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "ci1"
+        "ci2"
+        "ci3";
+    }
+    #ci1{
+        grid-area: ci1;
+    }
+    #ci2{
+        grid-area: ci2;
+    }
+    #ci3{
+        grid-area: ci3;
     }
 }
 /*=========================================================*/
