@@ -6,18 +6,14 @@
     width: extend-to-zoom;
 }
 html{
-    height: 100%;
-    min-height: 100%;
+    height: -webkit-fill-available;
     width: 100%;
-    min-width: 100%;
     margin: 0px;
     padding: 0px;
 }
 body{
-    height: 100%;
-    min-height: 100%;
+    height: -webkit-fill-available;
     width: 100%;
-    min-width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -43,18 +39,20 @@ body{
 /*=========================================================*/
 #head{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url("images_novios/h1.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: flex-end;
 }
 #head_text{
-    padding-top: 50vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 table, tr, td{
     border-collapse: collapse;
@@ -97,7 +95,7 @@ table, tr, td{
 /*=========================================================*/
 #couple{
     height: 100vh;
-    width: 100vw;
+    /*width: 100vw;*/
     /*background-image: url("images_novios/h1.jpeg");*/
     /*background-position: center center;*/
     /*background-repeat: no-repeat;*/
@@ -159,8 +157,8 @@ table, tr, td{
     }
     #head{
         height: 100vh;
-        width: 100vw;
-        background-image: url("images_novios/v1.jpeg");
+        /*width: 100vw*/;
+        background-image: url("images_novios/v2.jpeg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
