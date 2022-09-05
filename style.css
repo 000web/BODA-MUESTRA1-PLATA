@@ -137,6 +137,8 @@ table, tr, td{
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7rem;
     font-weight: bolder;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 #ci2_1{
     font-family: 'Poppins', sans-serif;
