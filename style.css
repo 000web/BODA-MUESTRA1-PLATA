@@ -595,6 +595,23 @@ button::after{text-decoration: none;}
     #head_text{
         padding-bottom: 0rem;
     }
+    .right_border{
+        height: 2rem;
+    }
+    .subplace{
+        padding-left: 0.1rem;
+    }
+    #foot{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+    }
 }
 /*=========================================================*/
 /*=========================================================*/
