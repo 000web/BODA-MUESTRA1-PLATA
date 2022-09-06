@@ -10,10 +10,10 @@
     width: extend-to-zoom;
 }
 
-
+/*height: fill-available; height: -webkit-fill-available;
+    */
 html{
-    height: fill-available;
-    height: -webkit-fill-available;
+    
     width: 100%;
 }
 
@@ -22,8 +22,7 @@ html{
 body{
     padding: 0;
     margin: 0;
-    height: fill-available;
-    height: -webkit-fill-available;
+    
     height: var(--doc-height);
 }
 
@@ -39,16 +38,14 @@ body{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     /*height: 100vh;*/ /* fallback for Js load */
-    height: fill-available;
-    height: -webkit-fill-available;
+    
     height: var(--doc-height);
 }
 
 
 .main_section{
     scroll-snap-align: start;
-    height: fill-available;
-    height: -webkit-fill-available;
+    
     height: var(--doc-height);
 }
 
