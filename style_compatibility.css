@@ -4,7 +4,10 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+:root {
+    --doc-height: 100%;
+}
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 /*=========================================================*/
 /*=========================================================*/
@@ -24,7 +27,7 @@
     width: extend-to-zoom;
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
-
+/*
 html{
     height: fill-available;
     height: -webkit-fill-available;
@@ -35,8 +38,8 @@ html{
 body{
     min-height: 100vh; /* fallback for Js load */
     height: var(--doc-height);
-    min-height: fill-available;
-    min-height: -webkit-fill-available;
+    /*min-height: fill-available;*/
+    /*min-height: -webkit-fill-available;*/
     width: 100%;
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
