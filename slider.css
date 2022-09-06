@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .bgImage{
     position: relative;
     width: 100%;
@@ -13,25 +15,40 @@
     background-size: cover;
     animation: bgChange 12s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 @keyframes bgChange{
     0%{
         background-image: url("images_novios/h1.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     26.666%{
         background-image: url("images_novios/h1.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     
     31.666%{
         background-image: url("images_novios/h2.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     58.333%{
         background-image: url("images_novios/h2.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     
     63.333%{
         background-image: url("images_novios/h3.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     95%{
         background-image: url("images_novios/h3.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/

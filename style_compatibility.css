@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -12,41 +13,55 @@
     zoom: 1.0;
     width: extend-to-zoom;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 @-o-viewport{
     zoom: 1.0;
     width: extend-to-zoom;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 html{
     height: -webkit-fill-available;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 body{
     height: -webkit-fill-available;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 *{
     margin: 0px;
     padding: 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .container{
     -ms-scroll-snap-type: y mandatory;
         scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .main_section{
     scroll-snap-align: start;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Courgette&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*=========================================================*/
 /*=========================================================*/
@@ -71,6 +86,8 @@ body{
         -ms-flex-align: end;
             align-items: flex-end;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #head_text{
     width: 100%;
     display: -webkit-box;
@@ -84,44 +101,121 @@ body{
             justify-content: center;
     padding-bottom: 4rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 table, tr, td{
     border-collapse: collapse;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #head_table{
     width: 30vw;
-    background-color: rgba(256, 256, 256, 0.6);
     border-radius: 2rem;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
+    -webkit-animation: coloringhead1 9s linear infinite;
+            animation: coloringhead1 9s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringhead1{
+    0%{
+        background: rgba(256, 256, 256, 0.7);
+        color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background: rgba(256, 256, 256, 0.7);
+        color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringhead1{
+    0%{
+        background: rgba(256, 256, 256, 0.7);
+        color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background: rgba(256, 256, 256, 0.7);
+        color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 .r_border{
-    border-right: 2px solid #262626;
     height: 10rem;
+    -webkit-animation: coloringhead2 9s linear infinite;
+            animation: coloringhead2 9s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringhead2{
+    0%{
+        border-right: 2px solid #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        border-right: 2px solid #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        border-right: 2px solid #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringhead2{
+    0%{
+        border-right: 2px solid #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        border-right: 2px solid #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        border-right: 2px solid #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 .nam{
     width: 50%;
     text-align: center;
-    color: #262626;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7rem;
     font-weight: bolder;
+    text-shadow: 0px 0px 15px #262626;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 .date_h{
     text-align: center;
-    color: #262626;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    text-shadow: 0px 0px 15px #262626;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .inv_h{
     text-align: center;
-    color: #262626;
     font-family: 'Great Vibes', cursive;
     font-size: 2rem;
     padding-bottom: 1rem;
+    text-shadow: 0px 0px 15px #262626;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -142,6 +236,8 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #couple_inner{
     width: 80%;
     height: 90%;
@@ -156,21 +252,29 @@ table, tr, td{
         grid-template-areas:
     "ci1 ci2 ci3";
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #ci1{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: ci1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #ci2{
     -ms-grid-row: 1;
     -ms-grid-column: 3;
     grid-area: ci2;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #ci3{
     -ms-grid-row: 1;
     -ms-grid-column: 5;
     grid-area: ci3;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .ci_sub_sub{
     height: 100%;
     display: -webkit-box;
@@ -188,12 +292,48 @@ table, tr, td{
             align-items: center;
     color: #262626;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .cs{
     color: #30593b;
     font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
     font-weight: bolder;
+    -webkit-animation: coloringcouple1 3s linear infinite;
+            animation: coloringcouple1 3s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringcouple1{
+    0%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringcouple1{
+    0%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .cs2{
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7rem;
@@ -201,12 +341,16 @@ table, tr, td{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #ci2_1{
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -231,6 +375,8 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party{
     height: 100vh;
     width: 100%;
@@ -252,6 +398,8 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #religious_sub{
     width: 80%;
     height: 90%;
@@ -270,35 +418,49 @@ table, tr, td{
     "r1 r3"
     "r2 r3";
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r1{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: r1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #r1{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r2{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: r2;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #r2{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r3{
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
     grid-area: r3;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #r3{
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub{
     width: 80%;
     height: 90%;
@@ -317,35 +479,49 @@ table, tr, td{
     "r1 r3"
     "r2 r3";
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p1{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: r1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #p1{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p2{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: r2;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #p2{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p3{
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
     grid-area: r3;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #party_sub > #p3{
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .places_txt{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -361,14 +537,82 @@ table, tr, td{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r1{
     background-color: #2d553b;
-    color: #eaddca;
+    -webkit-animation: coloringreligious1 3s linear infinite;
+            animation: coloringreligious1 3s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringreligious1{
+    0%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringreligious1{
+    0%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p1{
     background-color: #eaddca;
-    color: #2d553b;
+    -webkit-animation: coloringparty1 3s linear infinite;
+            animation: coloringparty1 3s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringparty1{
+    0%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringparty1{
+    0%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: #2d553b;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r2{
     background-image: url("images/santa_prisca.jpg");
     background-position: center center;
@@ -376,6 +620,8 @@ table, tr, td{
     background-size: cover;
     border-radius: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p2{
     background-image: url("images/salon.jpeg");
     background-position: center center;
@@ -383,10 +629,10 @@ table, tr, td{
     background-size: cover;
     border-radius: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #r3{
     border-radius: 1rem;
-    border: 2px solid #2d553b;
-    background-color: #2d553b;
     padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -398,10 +644,10 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #p3{
     border-radius: 1rem;
-    border: 2px solid #eaddca;
-    background-color: #eaddca;
     padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -413,24 +659,36 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #map1{
     border-radius: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #map2{
     border-radius: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .places_title{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .places_place{
     font-family: 'Great Vibes', cursive;
     font-size: 1.4rem;
     font-weight: 600;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .places_hour{
     font-family: 'Poppins', sans-serif;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -451,6 +709,8 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #itinerary_inner{
     width: 80%;
     height: 90%;
@@ -471,29 +731,41 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #itinerary_title{
     color: #eaddca;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #itinerary_text{
     color: #bebebe;
     font-family: 'Great Vibes', cursive;
     font-size: 1.4rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 #ftable{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .adjust_td{
     min-width: 80px;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .right_border{
     border-right: 3px dashed white;
     height: 4rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .ftime{
-    background-color: rgb(92, 141, 90);
+    /*background-color: rgb(92, 141, 90);*/
     color: white;
     padding-right: 0.1rem;
     padding-left: 0.1rem;
@@ -510,15 +782,175 @@ table, tr, td{
     font-weight: bold;
 
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+/*background-color: rgb(92, 141, 90);*/
+#time1{
+    -webkit-animation: coloringit1 6s linear infinite;
+            animation: coloringit1 6s linear infinite;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringit1{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringit1{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+#time2{
+    -webkit-animation: coloringit2 6s linear infinite;
+            animation: coloringit2 6s linear infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringit2{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringit2{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+#time3{
+    -webkit-animation: coloringit3 6s linear infinite;
+            animation: coloringit3 6s linear infinite;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringit3{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringit3{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+#time4{
+    -webkit-animation: coloringit4 6s linear infinite;
+            animation: coloringit4 6s linear infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringit4{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringit4{
+    0%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    15%{
+        background-color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        background-color: #262626;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+
 .left{
     text-align: left;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .activity{
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     color: white;
     padding-left: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .subplace{
     font-family: 'Great Vibes', cursive;
     font-size: 1.4rem;
@@ -526,6 +958,8 @@ table, tr, td{
     font-weight: lighter;
     padding-left: 1rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -549,6 +983,8 @@ table, tr, td{
         -ms-flex-align: center;
             align-items: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .foot_name{
     width: 50%;
     text-align: center;
@@ -556,45 +992,200 @@ table, tr, td{
     padding-right: 1rem;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7rem;
-    color: #D3AC79;
+    color: white;
+    -webkit-animation: coloringfoot1 3s linear infinite;
+            animation: coloringfoot1 3s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringfoot1{
+    0%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringfoot1{
+    0%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .ri_border{
-    border-right: 2px solid #D3AC79;
-    height: 5rem;
+    border-right: 2px solid white;
+    height: 10rem;
+    -webkit-animation: coloringfoot2 3s linear infinite;
+            animation: coloringfoot2 3s linear infinite;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes coloringfoot2{
+    0%{
+        border-right: 2px solid white;
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        border-right: 2px solid #D3AC79;
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        border-right: 2px solid white;
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes coloringfoot2{
+    0%{
+        border-right: 2px solid white;
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    50%{
+        border-right: 2px solid #D3AC79;
+        color: #D3AC79;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        border-right: 2px solid white;
+        color: white;
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .ri_border2{
     border-right: 2px solid #D3AC79;
     height: 3rem;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+.foot_data{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 .foot_author{
     width: 50%;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.7rem;
-    color: #D3AC79;
 }
-.author_container{
-    font-family: 'Poppins', sans-serif;
-}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 
 button:visited{text-decoration: none;}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 button::after{text-decoration: none;}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 .author_button{
     text-decoration: none;
     color: white;
     font-size: 0.7rem;
-}
-.author_button{
-    height: 2rem;
-}
-.by{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.7rem;
-    color: white;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
+.author_button{
+    height: 1.1rem;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+.author_button2{
+    height: 3rem;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+.author_image{
+    height: 2.7rem;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+#FARGO_LOGO{
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation: pulse 2s infinite;
+            animation: pulse 2s infinite;
+    border-radius: 50%;
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@-webkit-keyframes pulse{
+    0%{
+        -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+        -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.7);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.7);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    70%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-box-shadow: 0 0 0 10px rgba(256, 256, 256, 0);
+                box-shadow: 0 0 0 10px rgba(256, 256, 256, 0);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+        -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+@keyframes pulse{
+    0%{
+        -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+        -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.7);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.7);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    70%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-box-shadow: 0 0 0 10px rgba(256, 256, 256, 0);
+                box-shadow: 0 0 0 10px rgba(256, 256, 256, 0);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+    100%{
+        -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+        -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+}
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -603,6 +1194,8 @@ button::after{text-decoration: none;}
     #head_table{
         width: 40vw;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #religious_sub{
         -ms-grid-columns: 1fr 1rem 1fr;
         grid-template-columns: 1fr 1fr;
@@ -612,35 +1205,49 @@ button::after{text-decoration: none;}
         "r1 r2"
         "r3 r3";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         grid-area: r1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         grid-area: r2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
         -ms-grid-row: 1;
         -ms-grid-row-span: 3;
         -ms-grid-column: 3;
         grid-area: r3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r3{
         -ms-grid-row: 1;
         -ms-grid-row-span: 3;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub{
         -ms-grid-columns: 1fr 1rem 1fr;
         grid-template-columns: 1fr 1fr;
@@ -650,49 +1257,73 @@ button::after{text-decoration: none;}
         "p1 p2"
         "p3 p3";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         grid-area: p1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         grid-area: p2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         grid-area: p3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
         -ms-grid-row: 3;
         -ms-grid-row-span: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 3;
         -ms-grid-row-span: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 
 @media (max-width: 800px){
     #head_table{
         width: 50vw;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #couple_inner{
         -ms-grid-columns: 1fr 1rem 1fr;
         grid-template-columns: 1fr 1fr;
@@ -701,48 +1332,70 @@ button::after{text-decoration: none;}
         "ci1 ci3"
         "ci2 ci2";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         grid-area: ci1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
         grid-area: ci2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
         -ms-grid-row: 1;
         -ms-grid-column: 5;
         grid-area: ci3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 
 @media (max-width: 570px){
     #head_table{
         width: 90vw;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #head{
         background-image: url("images_novios/v2.jpeg");
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     .inv_h{
         font-size: 1.7rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #couple_inner{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -753,64 +1406,94 @@ button::after{text-decoration: none;}
         "ci2"
         "ci3";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         grid-area: ci1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
         grid-area: ci2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
         -ms-grid-row: 1;
         -ms-grid-column: 5;
         grid-area: ci3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     @media (max-width: 800px){
+
     #ci1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
             -ms-grid-row: 3;
             -ms-grid-column: 1;
             -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
             -ms-grid-row: 1;
             -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
             -ms-grid-row: 3;
             -ms-grid-column: 1;
             -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
             -ms-grid-row: 1;
             -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     @media (max-width: 570px){
+
     #ci1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
             -ms-grid-row: 3;
             -ms-grid-column: 1;
             -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
             -ms-grid-row: 5;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #religious_sub{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -821,81 +1504,117 @@ button::after{text-decoration: none;}
         "r2"
         "r3";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         grid-area: r1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         grid-area: r2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
         -ms-grid-row: 1;
         -ms-grid-row-span: 3;
         -ms-grid-column: 3;
         grid-area: r3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub > #r3{
         -ms-grid-row: 1;
         -ms-grid-row-span: 3;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     @media (max-width: 1000px){
+
     #r1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
             -ms-grid-row: 1;
             -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
             -ms-grid-row: 3;
             -ms-grid-row-span: 1;
             -ms-grid-column: 1;
             -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
             -ms-grid-row: 1;
             -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
             -ms-grid-row: 3;
             -ms-grid-row-span: 1;
             -ms-grid-column: 1;
             -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     @media (max-width: 570px){
+
     #r1{
             -ms-grid-row: 1;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
             -ms-grid-row: 3;
             -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
             -ms-grid-row: 5;
             -ms-grid-row-span: 1;
             -ms-grid-column: 1;
             -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #party_sub{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -906,142 +1625,210 @@ button::after{text-decoration: none;}
         "p2"
         "p3";
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         grid-area: p1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         grid-area: p2;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         grid-area: p3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
         -ms-grid-row: 5;
         -ms-grid-row-span: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 5;
         -ms-grid-row-span: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #r3{
         -ms-grid-row: 5;
         -ms-grid-row-span: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #ci3{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 
 @media (max-width: 1000px){
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 
 @media (max-width: 570px){
+
     #p1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p2{
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #p3{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -1054,15 +1841,23 @@ button::after{text-decoration: none;}
             -ms-flex-align: center;
                 align-items: center;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #head_text{
         padding-bottom: 0rem;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     .right_border{
         height: 2rem;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     .subplace{
         padding-left: 0.1rem;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
     #foot{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -1083,7 +1878,11 @@ button::after{text-decoration: none;}
                 align-items: center;
         height: 100vh;
     }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 }
+/*FARGO Web Design [55 48 42 70 28] MEXICO*/
+
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
