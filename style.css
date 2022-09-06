@@ -1,4 +1,7 @@
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
+:root {
+    --doc-height: 100%;
+}
 /*=========================================================*/
 /*=========================================================*/
 /*=========================================================*/
@@ -16,10 +19,10 @@ html{
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
 body{
-    min-height: 100vh;
-    min-height: fill-available;
-    min-height: -webkit-fill-available;
-    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
@@ -33,7 +36,8 @@ body{
 .container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
@@ -53,7 +57,8 @@ body{
 /*=========================================================*/
 /*=========================================================*/
 #head{
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     width: 100%;
     background-image: url("images_novios/h2.jpeg");
     background-position: center center;
@@ -155,7 +160,8 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 #couple{
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     width: 100%;
     background-image: url("images/leaves.png");
     background-position: center center;
@@ -251,7 +257,8 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 #religious{
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     width: 100%;
     background-image: url("images/leaves2.jpg");
     background-position: center center;
@@ -265,7 +272,8 @@ table, tr, td{
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
 #party{
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     width: 100%;
     background-image: url("images/leaves.png");
     background-position: center center;
@@ -460,7 +468,8 @@ table, tr, td{
 /*=========================================================*/
 /*=========================================================*/
 #itinerary{
-    height: 100vh;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     width: 100%;
     background-image: url("images/leaves3.jpg");
     background-position: center center;
@@ -1012,7 +1021,8 @@ button::after{text-decoration: none;}
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 100vh;
+        height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
     }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
