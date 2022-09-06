@@ -9,18 +9,17 @@
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
 html{
+    height: fill-available;
     height: -webkit-fill-available;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
 body{
-    height: -webkit-fill-available;
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 /*FARGO Web Design [55 48 42 70 28] MEXICO*/
 
